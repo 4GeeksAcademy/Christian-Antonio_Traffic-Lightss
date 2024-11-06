@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(113, 171, 160);
+  display: flex;
+  justify-content: center;
+}
+
+.stick {
+  margin-top: -50px;
+  margin-bottom: none;
+  margin-left: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 100px;
+  background-color: rgb(45, 43, 43);
+}
+
+.semaforo {
+  border-radius: 40px;
+  overflow: hidden;
+  background-color: rgb(45, 43, 43);
+  width: 240px;
+  height: 550px;
+}
+
+.light {
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  justify-content: center;
+}
+
+.red {
+  background-color: rgb(160, 24, 24);
+}
+
+.yellow {
+
+  background-color: rgb(231, 161, 40);
+}
+
+.green {
+  background-color: rgb(105, 231, 105);
+}
+
+.glow {
+  animation: glow 1.3s linear infinite alternate;
+  box-shadow: rgba(255, 255, 255, 0.423) -10px -23px 25px 0px inset, rgba(255, 255, 255, 0.15) 0px -36px 30px 0px inset, rgba(255, 255, 255, 0.3) 0px -79px 40px 0px inset, rgba(255, 255, 255, 0.279) 0px 2px 1px, rgba(255, 255, 255, 0.345) 0px 4px 2px, rgba(255, 255, 255, 0.364) 0px 8px 4px, rgba(255, 255, 255, 0.09) 0px 16px 8px, rgba(255, 255, 255, 0.09) 0px 32px 16px;}
